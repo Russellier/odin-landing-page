@@ -16,6 +16,11 @@ body {
   justify-content: flex-start;
 }
 
+.header, .footer {
+  height: 40px;
+  border: 1px solid darkred;
+}
+
 .header {
   display: flex;
   flex-direction: row;
@@ -29,12 +34,26 @@ body {
 }
 
 .content > * {
-  border: 2px solid green;
+  border: 1px solid darkgreen;
   height: 200px;
 }
 
 .content > :nth-last-child(1) {
   height: 150px;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro > div > * {
+  margin: 8px 0;
+}
+
+.intro-button {
+  padding: 4px 16px;
 }
 
 .footer {
