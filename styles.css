@@ -43,6 +43,7 @@ body {
 }
 
 .content > :nth-last-child(1) {
+  border: 1px solid red;
   min-height: 150px;
 }
 
@@ -84,6 +85,24 @@ body {
 
 .quote > :nth-child(2) {
   align-self: flex-end;
+}
+
+.call-to-action {
+  display: flex;
+  align-items: center;
+}
+
+.call-to-action-box {
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 120px;
+  padding: 24px 48px;
+}
+
+.call-to-action-button {
+  flex-shrink: 0;
 }
 
 .footer {
