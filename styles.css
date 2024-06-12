@@ -9,6 +9,10 @@
   padding: 0;
 }
 
+.header, .content, .footer {
+  margin: 0 20px;
+}
+
 body {
   min-height: 100vh;
   display: flex;
@@ -39,13 +43,14 @@ body {
 }
 
 .content > :nth-last-child(1) {
-  height: 150px;
+  min-height: 150px;
 }
 
 .intro {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 32px;
 }
 
 .intro > div > * {
@@ -54,6 +59,20 @@ body {
 
 .intro-button {
   padding: 4px 16px;
+}
+
+.information {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 32px;
+  padding: 16px 32px;
+  text-align: center;
+}
+
+.information-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .footer {
