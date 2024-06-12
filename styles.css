@@ -75,6 +75,17 @@ body {
   align-items: center;
 }
 
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 150px;
+}
+
+.quote > :nth-child(2) {
+  align-self: flex-end;
+}
+
 .footer {
   margin-top: auto;
 }
