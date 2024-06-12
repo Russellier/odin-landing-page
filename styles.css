@@ -14,7 +14,7 @@
 }
 
 .header, .footer {
-  padding: 0 350px;
+  padding: 0 200px;
 }
 
 body {
@@ -80,7 +80,7 @@ button:hover {
 }
 
 .intro {
-  padding: 0 350px;
+  padding: 0 200px;
   background-color: #554234;
   display: flex;
   justify-content: space-between;
@@ -151,7 +151,7 @@ button:hover {
   flex-direction: column;
   justify-content: center;
   gap: 8px;
-  padding: 0 350px;
+  padding: 0 200px;
 }
 
 .quote > :nth-child(2) {
